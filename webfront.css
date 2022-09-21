@@ -635,8 +635,8 @@ div.ipsPanel.ipsDWDReport .title {
     width: 420px;
     top: 50%;
     left: 50%;
-    margin-left: -240px;
-    margin-top: -130px;
+    margin-left: -130px;
+    margin-top: -200px;
 }
 
 .ipsLogin>.content {
