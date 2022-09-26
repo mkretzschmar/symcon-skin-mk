@@ -6,6 +6,17 @@
  * warning colour = #de0909
  * default shadow: box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); // #b6b6b6
  *
+ * 8bit Farbpalette AMIGA Workbench (https://www.taws.ch/WB.html)
+ * colour 1: r170g170b170 #AAAAAA Hintergrund, Workbench-Hintergrund, Fenster-Hintergrund, GUI-Elemente-Hintergrund, ...
+ * colour 2: r000g000b000 #000000 Text
+ * colour 3: r255g255b255 #FFFFFF Wichtiger Text
+ * colour 4: r102g136b187 #6688BB Titelbalken aktiver Fenster
+ * colour 5: r238g068b068 #EE4444
+ * colour 6: r085g221b085 #55DD55 Grün
+ * colour 7: r000g068b221 #0044DD Blau
+ * colour 8: r238g153b000 #EE9900 Shell-Cursor
+ * 
+ *
  */
 
 @font-face {
@@ -51,8 +62,11 @@ body {
 
 .ipsTabPane>.navigation,
 .ipsContentChanger>.navigation {
-    border-bottom: solid 1px #e1e1e1;
-    background: white !important;
+    border-top: solid 1px #FFFFFF;
+    border-right: solid 1px #FFFFFF;
+    border-bottom: solid 1px #000000;
+    border-left: solid 1px #000000;
+    background: #AAAAAA !important;
 }
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
